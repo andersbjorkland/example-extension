@@ -1,6 +1,7 @@
 {
     "name": "andersbjorkland/example-extension",
     "description": "A simple extension for Bolt CMS.",
+    "version": "0.1",
     "type": "bolt-extension",
     "license": "MIT",
     "authors": [

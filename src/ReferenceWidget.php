@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AcmeCorp\ReferenceExtension;
+namespace AndersBjorkland\ExampleExtension;
 
 use Bolt\Widget\BaseWidget;
 use Bolt\Widget\CacheAwareInterface;
@@ -24,4 +24,9 @@ class ReferenceWidget extends BaseWidget implements TwigAwareInterface, CacheAwa
     protected $template = '@reference-extension/widget.html.twig';
     protected $zone = RequestZone::BACKEND;
     protected $cacheDuration = -1800;
+
+    public function run(array $params = []): ?string
+    {
+        return parent::run(["message" => "Greetings from the server!"]);
+    }
 }

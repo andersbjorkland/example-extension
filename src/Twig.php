@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AcmeCorp\ReferenceExtension;
+namespace AndersBjorkland\ExampleExtension;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AcmeCorp\ReferenceExtension;
+namespace AndersBjorkland\ExampleExtension;
 
 use Bolt\Extension\BaseExtension;
 use Symfony\Component\Routing\Route;
@@ -14,7 +14,7 @@ class Extension extends BaseExtension
      */
     public function getName(): string
     {
-        return 'AcmeCorp ReferenceExtension';
+        return 'AndersBjorkland ExampleExtension';
     }
 
     /**
